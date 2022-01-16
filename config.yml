@@ -1,14 +1,14 @@
-# accounts:
-#   - name: user1
-#     coins: ["4000000000martian"]
-# validator:
-#   name: user1
-#   staked: "1000000000martian"
-# client:
-#   openapi:
-#     path: "docs/static/openapi.yml"
-#   vuex:
-#     path: "vue/src/store"
+accounts:
+  - name: user1
+    coins: ["4000000000stake"]
+validator:
+  name: user1
+  staked: "1000000000stake"
+client:
+  openapi:
+    path: "docs/static/openapi.yml"
+  vuex:
+    path: "vue/src/store"
 # genesis:
 #   chain_id: "martian"
 #   app_state:
