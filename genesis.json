@@ -174,7 +174,7 @@
                 },
                 "min_self_delegation": "1",
                 "delegator_address": "martian18rvw7x94wqqcse3mvw9qz39un4h3y9s0wt6pmy",
-                "validator_address": "martianvaloper18rvw7x94wqqcse3mvw9qz39un4h3y9s0athz8e",
+                "validator_address": "martianvalcons1sne6fjrhvqw2tg4tvqu8sdc78h2ukxd3dej42l",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
                   "key": "c/e9TxaZdZLlnTvn3mmF+mZzdWhzQDtUgBni2qDBgKQ="
