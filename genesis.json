@@ -154,55 +154,6 @@
           "signatures": [
             "bPOcsImHUv4EE+xQTdJI9DANHRFf0ihUyrjhLz1BVORyIA0u2dgtlQyT3Mvz0GeoKu6qjeVYnp2YjTLkKDBiWA=="
           ]
-        },
-        {
-          "body": {
-            "messages": [
-              {
-                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-                "description": {
-                  "moniker": "validator2",
-                  "identity": "MartianZone",
-                  "website": "google.com",
-                  "security_contact": "martian@live.com",
-                  "details": "Martian Zone"
-                },
-                "commission": {
-                  "rate": "0.050000000000000000",
-                  "max_rate": "0.200000000000000000",
-                  "max_change_rate": "0.010000000000000000"
-                },
-                "min_self_delegation": "1",
-                "delegator_address": "martian108lm7u9pqwk4t06h6ev8x76exxq0lyywduqdd3",
-                "validator_address": "martianvaloper1509g2mzndxnm4g2gegafwtc9dqmc40f509hyzd",
-                "pubkey": {
-                  "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "1/W+AFIqGHDBjlcPVRVGOXhsNIzaEkwnNTCZ6+nIh6A="
-                },
-                "value": { "denom": "martian", "amount": "50000" }
-              }
-            ],
-            "memo": "a9e25319f57e1cec6b6453031d5c31de8bcb11cc@172.31.87.58:26656",
-            "timeout_height": "0",
-            "extension_options": [],
-            "non_critical_extension_options": []
-          },
-          "auth_info": {
-            "signer_infos": [
-              {
-                "public_key": {
-                  "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "AqWtcpLvOHATMr0pKZzA1QibT9K/Pz+Gtv2zNV/DSGVL"
-                },
-                "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
-                "sequence": "0"
-              }
-            ],
-            "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
-          },
-          "signatures": [
-            "2qxHGmNH1Q9Pwj+J7ZATw8Q1mgSoXgvukeDpjNUMCUxQiMDc8s/QsJ5vERW1+OMxK+djBKMlxWz54Moy3SIYCQ=="
-          ]
         }
       ]
     },
