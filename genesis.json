@@ -161,31 +161,28 @@
               {
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
-                  "moniker": "validator2",
+                  "moniker": "validator3",
                   "identity": "",
-                  "website": "",
-                  "security_contact": "",
-                  "details": ""
+                  "website": "google.com",
+                  "security_contact": "martian@live.com",
+                  "details": "Martian Zone"
                 },
                 "commission": {
-                  "rate": "0.100000000000000000",
+                  "rate": "0.050000000000000000",
                   "max_rate": "0.200000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "martian18rvw7x94wqqcse3mvw9qz39un4h3y9s0wt6pmy",
-                "validator_address": "martianvaloper18rvw7x94wqqcse3mvw9qz39un4h3y9s0athz8e",
+                "delegator_address": "martian1e55nkvyvcxw3y8mh4und9g6cz4pvlq4xguw8nk",
+                "validator_address": "martianvaloper1e55nkvyvcxw3y8mh4und9g6cz4pvlq4xmury0t",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "XMsjS5E7DS5kRim807c/id2EWsZ48/YaPOSat1GySr4="
+                  "key": "NKkj1sKPBWq1xPqVmf/7zi+RTxuNfptbgwACtN6DygQ="
                 },
-                "value": {
-                  "denom": "martian",
-                  "amount": "50000"
-                }
+                "value": { "denom": "martian", "amount": "50000" }
               }
             ],
-            "memo": "35097d606cdeee319fb34ae88ed55ac4a0fd2ff3@172.31.14.55:26656",
+            "memo": "b6c7a04c65cec261688547518181265d0ba85ddc@192.168.1.66:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -195,25 +192,16 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A5EIDnFkviVzeV3WzBM4c1nE5WlXx6bh/T5llumwj727"
+                  "key": "A2bheGXvYu+HwgK6NDozYRyfkUdIIoTdZ2lHVPthEcy9"
                 },
-                "mode_info": {
-                  "single": {
-                    "mode": "SIGN_MODE_DIRECT"
-                  }
-                },
+                "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
                 "sequence": "0"
               }
             ],
-            "fee": {
-              "amount": [],
-              "gas_limit": "200000",
-              "payer": "",
-              "granter": ""
-            }
+            "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
           },
           "signatures": [
-            "pIThje8DaNreclim6NSfthZ3Qe7txVvSof+XPHanIVVewiD3ZLVHOtcFKo2Zg0/PQZMkMIjzQGOY5xL+yIPvDA=="
+            "i1cF8CI9qB9g9ftMx9gaVzj4WfJ1uD5rnwvIQ/aVZFk+fkwi3OMusbW6NKx13+ldvtSWa7dvjH2YthdYVxkH8A=="
           ]
         }
       ]
