@@ -168,7 +168,7 @@
                   "details": ""
                 },
                 "commission": {
-                  "rate": "0.100000000000000000",
+                  "rate": "0.050000000000000000",
                   "max_rate": "0.200000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
@@ -179,7 +179,7 @@
                   "@type": "/cosmos.crypto.ed25519.PubKey",
                   "key": "c/e9TxaZdZLlnTvn3mmF+mZzdWhzQDtUgBni2qDBgKQ="
                 },
-                "value": { "denom": "martian", "amount": "500000" }
+                "value": { "denom": "martian", "amount": "50000" }
               }
             ],
             "memo": "702081aa7de94781c1fc5810dc59fe3982625de5@172.31.14.55:26656",
