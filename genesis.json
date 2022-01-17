@@ -266,9 +266,9 @@
       },
       "params": {
         "mint_denom": "martian",
-        "inflation_rate_change": "0.130000000000000000",
-        "inflation_max": "0.200000000000000000",
-        "inflation_min": "0.070000000000000000",
+        "inflation_rate_change": "0.040000000000000000",
+        "inflation_max": "0.550000000000000000",
+        "inflation_min": "0.100000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
