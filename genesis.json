@@ -162,7 +162,7 @@
                 "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
                 "description": {
                   "moniker": "validator2",
-                  "identity": "",
+                  "identity": "MartianZone",
                   "website": "google.com",
                   "security_contact": "martian@live.com",
                   "details": "Martian Zone"
