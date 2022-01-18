@@ -173,7 +173,7 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "martian1lcgsvwuuxhkp206uhwzrsmahuj9a3ysj4hsyup",
+                "delegator_address": "martian1509g2mzndxnm4g2gegafwtc9dqmc40f5u9687s",
                 "validator_address": "martianvaloper1lcgsvwuuxhkp206uhwzrsmahuj9a3ysjxha8qu",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
