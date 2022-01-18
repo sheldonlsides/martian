@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-01-16T21:30:34.47345016Z",
+  "genesis_time": "2022-01-18T07:23:55.971805142Z",
   "chain_id": "martian-0",
   "initial_height": "1",
   "consensus_params": {
@@ -31,7 +31,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "martian1dg2vwgn8wvh0w0v692lkkch90lgv7fl6gvgzz3",
+          "address": "martian1dxgan3aaz7jgkkk52h0lkhd9x0su9sndgup9t2",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -45,7 +45,7 @@
       },
       "balances": [
         {
-          "address": "martian1dg2vwgn8wvh0w0v692lkkch90lgv7fl6gvgzz3",
+          "address": "martian1dxgan3aaz7jgkkk52h0lkhd9x0su9sndgup9t2",
           "coins": [
             {
               "denom": "martian",
@@ -102,8 +102,8 @@
                 "description": {
                   "moniker": "validator",
                   "identity": "",
-                  "website": "google.com",
-                  "security_contact": "sheldon.sides@live.com",
+                  "website": "martian.zone",
+                  "security_contact": "martian@live.com",
                   "details": "Martian Zone"
                 },
                 "commission": {
@@ -112,11 +112,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "martian1dg2vwgn8wvh0w0v692lkkch90lgv7fl6gvgzz3",
-                "validator_address": "martianvaloper1dg2vwgn8wvh0w0v692lkkch90lgv7fl6mv9p7v",
+                "delegator_address": "martian1dxgan3aaz7jgkkk52h0lkhd9x0su9sndgup9t2",
+                "validator_address": "martianvaloper1dxgan3aaz7jgkkk52h0lkhd9x0su9sndmuvxhh",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "YimkKjU12EfSGmlRorriTZel942qaEYMQznWKaJxDvI="
+                  "key": "qV8cSM5s3499uIgNBXp2Y4jdrDd13USOnJUpEiR5fio="
                 },
                 "value": {
                   "denom": "martian",
@@ -124,7 +124,7 @@
                 }
               }
             ],
-            "memo": "b6608c10bbbab36fe226f985bb46c1550651eb75@172.31.9.128:26656",
+            "memo": "75ed26806cd8464e42597054766605e763f0a51b@172.31.9.128:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -134,7 +134,7 @@
               {
                 "public_key": {
                   "@type": "/cosmos.crypto.secp256k1.PubKey",
-                  "key": "A0bIa/uWtLKyCbCdzoEE64OXRUviRf+XfnnogJARDBGI"
+                  "key": "Agab9pZTFawT+t0yODIi30soRyaH3MEMVNqHHkEQvpOy"
                 },
                 "mode_info": {
                   "single": {
@@ -152,7 +152,7 @@
             }
           },
           "signatures": [
-            "bPOcsImHUv4EE+xQTdJI9DANHRFf0ihUyrjhLz1BVORyIA0u2dgtlQyT3Mvz0GeoKu6qjeVYnp2YjTLkKDBiWA=="
+            "jFqSQGhHWl9wVA+Pg9nraDnB/wFvgp3CiMKjWo3/4W8WqzXloryijWnhXcYJSFKJlLqjCsZ3+q2chQvrro0gIw=="
           ]
         }
       ]
@@ -212,14 +212,14 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.570000000000000000",
+        "inflation": "0.130000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "martian",
-        "inflation_rate_change": "0.040000000000000000",
-        "inflation_max": "0.550000000000000000",
-        "inflation_min": "0.100000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
       }
