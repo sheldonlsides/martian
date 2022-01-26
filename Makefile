@@ -75,7 +75,9 @@ endif
 all: install
 
 install: go.sum
-	go install -mod=readonly $(BUILD_FLAGS) ./cmd/martiand
+	go install  $(BUILD_FLAGS) ./cmd/martiand
+
+#-mod=readonly
 
 build:
 	go build $(BUILD_FLAGS) -o bin/martiand ./cmd/martiand
