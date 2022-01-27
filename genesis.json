@@ -1,13 +1,21 @@
-
 {
-  "genesis_time": "2022-01-27T04:04:36.714230913Z",
-  "chain_id": "martian-1",  "initial_height": "1",  
-  "consensus_params": 
-  {    
-    "block": {"max_bytes": "22020096", "max_gas": "-1","time_iota_ms": "1000"    },    
-    "evidence": {"max_age_num_blocks": "100000","max_age_duration": "172800000000000","max_bytes": "1048576"},    
-    "validator": 
-    {"pub_key_types": ["ed25519"]},
+  "genesis_time": "2022-01-27T04:17:17.884221427Z",
+  "chain_id": "martian-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": ["ed25519"]
+    },
     "version": {}
   },
   "app_hash": "",
@@ -20,20 +28,31 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": 
-      [{          
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",          
-          "address": "mars1nsrcdj0w6yclva7ctxgdqjt4r7klp8lsx08q52",          
-          "pub_key": null,          
-          "account_number": "0",          
-          "sequence": "0"        
-      }]
-      },    
-      "bank": {      
-        "params": {"send_enabled": [], "default_send_enabled": true},      
-        "balances": [{"address": "mars1nsrcdj0w6yclva7ctxgdqjt4r7klp8lsx08q52", 
-        "coins": [{"denom": "mars","amount": "95000000000"}          
-      ]}
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "mars1nsrcdj0w6yclva7ctxgdqjt4r7klp8lsx08q52",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "mars1nsrcdj0w6yclva7ctxgdqjt4r7klp8lsx08q52",
+          "coins": [
+            {
+              "denom": "mars",
+              "amount": "95000000000"
+            }
+          ]
+        }
       ],
       "supply": [],
       "denom_metadata": []
@@ -167,10 +186,7 @@
         "clients_consensus": [],
         "clients_metadata": [],
         "params": {
-          "allowed_clients": [
-            "06-solomachine",
-            "07-tendermint"
-          ]
+          "allowed_clients": ["06-solomachine", "07-tendermint"]
         },
         "create_localhost": false,
         "next_client_sequence": "0"
@@ -196,13 +212,13 @@
     },
     "mint": {
       "minter": {
-        "inflation": "0.50000000000000000",
+        "inflation": "0.130000000000000000",
         "annual_provisions": "0.000000000000000000"
       },
       "params": {
         "mint_denom": "mars",
-        "inflation_rate_change": "0.060000000000000000",
-        "inflation_max": "0.450000000000000000",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
         "inflation_min": "0.070000000000000000",
         "goal_bonded": "0.670000000000000000",
         "blocks_per_year": "6311520"
@@ -247,4 +263,4 @@
     "upgrade": {},
     "vesting": {}
   }
-}s
+}
